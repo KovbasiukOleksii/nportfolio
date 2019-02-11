@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
+}
+.body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: url(images/fon1.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+nav ul {
+    padding-left: 0;
+}
+nav li {
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+    list-style: none;
+    padding: .5rem 1rem;
+}
+@media only screen and (max-width: 455px) {
+    nav li {
+        padding: .5rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    nav li {
+        padding: .2rem;
+    }
+}
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  background: #1A1819;
+  z-index: 1111;
+}
+
+nav li a {
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+}
+nav li a:hover {
+    color: #EC7424;
+    text-decoration: none;
+}
+.title_banner h1 {
+    padding-top: 120px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: -1px 3px 7px rgba(83, 129, 101, 1);
+    color: #fff;
+}
+.title_banner h2 {
+    margin-top: 15px;
+    font-family: 'Gochi Hand', cursive;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: -1px 3px 7px rgba(83, 129, 101, 1);
+    color: #fff;
+}
+.title_banner p {
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    margin: 0 auto;
+    width: 85%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+    text-shadow: -1px 0px 10px rgba(255, 255, 255, 1);
+    color: #fff;
+}
+@media only screen and (max-width: 414px) {
+    .title_banner h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .title_banner h2 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .title_banner p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .title_banner h1 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .title_banner h2 {
+        font-size: 20px;
+    }
+}
+hr {
+    border: solid #E3E3E3;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 11px 0 30px;
+    height: 0;
+}
+ul {
+    padding-left: 0;
+}
+.social li {
+    list-style: none;
+    display: inline-block;
+}
+.social li a {
+    margin-right: 15px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+.social li a:hover {
+    color: #EC7424;
+    transition: 0.3s;
+}
+.down_beginner i {
+    margin-bottom: 30px;
+} 
+.down_beginner a {
+    font-size: 50px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.down_beginner a:hover {
+    color: #EC7424;
+    transition: 0.3s;
+}
+#about {
+    background: #2B2B2B;
+}
+.profile__pic {
+    margin-top: 30px;
+    float: right;
+    width: 250px;
+    border-bottom: 1px solid #A8A8A8;
+}
+@media only screen and (max-width: 600px) {
+    .profile__pic {
+        width: 150px;
+    }
+}
+#about h2 {
+    padding-top: 30px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    margin-bottom: 12px;
+}
+#about p {
+    color: #A8A8A8;
+    font-size: 13px;
+}
+#resume {
+    background: url(images/education_button.jpg) no-repeat center top / cover;
+    background-attachment: fixed;
+}
+#resume h2 {
+    margin-left: 30px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.education {
+    float: left;
+    width: 200px;
+    height: 500px;
+}
+.education_resume {
+    padding-bottom: 30px;
+}
+.education_resume h3 {
+    font-weight: bold;
+    padding-top: 45px;
+}
+.info {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #A8A8A8;
+}
+.date {
+    font-size: 14px;
+    color: #A8A8A8;
+
+}
+#resume p {
+    line-height: 2;
+}
+.skills {
+    float: left;
+    width: 200px;
+    height: 100px;   
+}
+@media only screen and (max-width: 765px) {
+    .skills, 
+    .education {
+        float: none;
+        height: auto;
+    }
+}
+#works {
+    background: #EBEEEE;
+}
+#works h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.portfolio {
+    padding-bottom: 30px;
+}
+.portfolio ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.portfolio li {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.portfolio img {
+    margin: 0 auto;
+    width: 90%;
+    height: 250px;
+}
+@media only screen and (max-width: 1000px) {
+    .portfolio img {
+        height: 150px;
+    }
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #000!important;
+}
+.dscr {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: all .5s;
+    top: 100%;
+}
+.portfolio li:hover
+.dscr {
+    display: block;
+    opacity: 1;
+    top: 0;
+}
+footer {
+    background: #0F0F0F;
+    text-align: center;
+}
+.social_down ul {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
